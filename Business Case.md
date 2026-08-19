@@ -42,7 +42,7 @@ I already worked on a **Speech Emotion Recognition** project that uses machine-l
 
 ### Basic Pipeline
 
-Audio Input -> Feature Extraction -> ML / DL Model -> Emotion Prediction
+> *Audio Input -> Feature Extraction -> ML / DL Model -> Emotion Prediction*
 
 The original project was mainly focused on the **technical problem of emotion classification**.
 
@@ -62,8 +62,8 @@ Imagine a customer calling an AI-powered support system.
 
 Instead of processing only the customer's words, the system could consider both the **customer's intent and emotional signals**.
 
-Customer Call -> Speech + Conversation Context -> Intent Detection + Emotion Detection -> Decision Engine -> 
-Continue -> Adapt Response -> Escalate
+> *Customer Call -> Speech + Conversation Context -> Intent Detection + Emotion Detection -> Decision Engine -> 
+Continue -> Adapt Response -> Escalate*
 
 ### Example
 
@@ -183,10 +183,10 @@ Rather than assuming that emotion detection will automatically improve customer 
 ### A/B Comparison
 
 Approach A
-Intent Only -> Response
+> *Intent Only -> Response*
 vs.
 Approach B
-Intent + Emotion -> Response
+> *Intent + Emotion -> Response*
 
 The two approaches could be tested on historical or controlled customer-support interactions.
 
@@ -225,7 +225,7 @@ Therefore, the system should use emotion as a **supporting signal**, not as the 
 
 A better decision would combine:
 
-Emotion
+> *Emotion
    +
 Intent
    +
@@ -233,7 +233,7 @@ Conversation History
    +
 Business Rules
    ↓
-Final Decision
+Final Decision*
 
 ---
 
